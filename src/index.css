@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background: #0A0812;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../public/font/AeonikTRIAL-Regular.otf') format('truetype');
+}
+
+.fontFamily {
+  font-family: 'Aeonik', sans-serif;
+}
+
+.h-44 {
+  height: 44px;
+}
+
+.topBg {
+  background-image: url(./../public/images/TopNet.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.bottomBg {
+  background-image: url(./../public/images/DownNet.png);
+  background-repeat: no-repeat;
+}
+
+.userBgImg {
+  background-image: url(./../public/images/RebiewBg.png);
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
